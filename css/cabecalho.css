@@ -35,6 +35,12 @@
     margin-left: .7rem;
 }
 
+@media screen and (max-width: 320px) {
+    .cabecalho {
+        padding-bottom: 0;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     .cabecalho {
         flex-direction: row;
